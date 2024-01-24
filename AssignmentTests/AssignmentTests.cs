@@ -53,4 +53,69 @@ namespace AssignmentTests
             //}
         }
     }
+
+    public class InterfaceImplementationTests
+    {
+        //[Fact]
+        //public void Dog_ShouldImplementIVocalizeInterface()
+        //{
+        //    // Arrange
+        //    Dog dog = new Dog("Buddy", 3);
+
+        //    // Act & Assert
+        //    Assert.IsAssignableFrom<IVocalize>(dog);
+        //}
+
+        //[Fact]
+        //public void Cat_ShouldImplementIVocalizeInterface()
+        //{
+        //    // Arrange
+        //    Cat cat = new Cat("Whiskers", 2);
+
+        //    // Act & Assert
+        //    Assert.IsAssignableFrom<IVocalize>(cat);
+        //}
+    }
+
+    public class VocalizeTests
+    {
+        //[Fact]
+        //public void Dog_ShouldImplementIVocalizeAndBark()
+        //{
+        //    // Arrange
+        //    Dog dog = new Dog("Buddy", 3);
+        //    string expectedSound = "Bark!";
+
+        //    // Act
+        //    string actualSound = RecordSound(dog);
+
+        //    // Assert
+        //    Assert.Equal(expectedSound, actualSound);
+        //}
+
+        //[Fact]
+        //public void Cat_ShouldImplementIVocalizeAndMeow()
+        //{
+        //    // Arrange
+        //    Cat cat = new Cat("Whiskers", 2);
+        //    string expectedSound = "Meow!";
+
+        //    // Act
+        //    string actualSound = RecordSound(cat);
+
+        //    // Assert
+        //    Assert.Equal(expectedSound, actualSound);
+        //}
+
+        //private string RecordSound(IVocalize animal)
+        //{
+        //    using (var sw = new StringWriter())
+        //    {
+        //        Console.SetOut(sw);
+        //        animal.MakeSound();
+
+        //        return sw.ToString().Trim();
+        //    }
+        //}
+    }
 }
