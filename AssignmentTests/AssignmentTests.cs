@@ -1,3 +1,5 @@
+using OOP_Assignment_2;
+
 namespace AssignmentTests
 {
     public class AssignmentTests
