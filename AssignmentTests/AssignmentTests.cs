@@ -24,14 +24,14 @@ namespace AssignmentTests
         [Fact]
         public void Dog_ShouldInheritFromPet()
         {
-            //Dog dog = new Dog("Buddy", 3);
+            //Dog dog = new Dog("Buddy", 3, "test");
             //Assert.True(dog is Pet);
         }
 
         [Fact]
         public void Cat_ShouldInheritFromPet()
         {
-            //Cat cat = new Cat("Whiskers", 2);
+            //Cat cat = new Cat("Whiskers", 2, "test");
             //Assert.True(cat is Pet);
         }
 
