@@ -39,7 +39,7 @@ namespace AssignmentTests
         public void PetList_ShouldHandleDifferentTypes()
         {
             // Arrange
-            //var pets = new List<Pet> { new Dog("Buddy", 3), new Cat("Whiskers", 2) };
+            //var pets = new List<Pet> { new Dog("Buddy", 3, "test"), new Cat("Whiskers", 2, "test") };
 
             //// Act & Assert
             //foreach (var pet in pets)
@@ -62,7 +62,7 @@ namespace AssignmentTests
         //public void Dog_ShouldImplementIVocalizeInterface()
         //{
         //    // Arrange
-        //    Dog dog = new Dog("Buddy", 3);
+        //    Dog dog = new Dog("Buddy", 3, "test");
 
         //    // Act & Assert
         //    Assert.IsAssignableFrom<IVocalize>(dog);
@@ -72,7 +72,7 @@ namespace AssignmentTests
         //public void Cat_ShouldImplementIVocalizeInterface()
         //{
         //    // Arrange
-        //    Cat cat = new Cat("Whiskers", 2);
+        //    Cat cat = new Cat("Whiskers", 2, "test");
 
         //    // Act & Assert
         //    Assert.IsAssignableFrom<IVocalize>(cat);
@@ -85,7 +85,7 @@ namespace AssignmentTests
         //public void Dog_ShouldImplementIVocalizeAndBark()
         //{
         //    // Arrange
-        //    Dog dog = new Dog("Buddy", 3);
+        //    Dog dog = new Dog("Buddy", 3, "test");
         //    string expectedSound = "Bark!";
 
         //    // Act
@@ -99,7 +99,7 @@ namespace AssignmentTests
         //public void Cat_ShouldImplementIVocalizeAndMeow()
         //{
         //    // Arrange
-        //    Cat cat = new Cat("Whiskers", 2);
+        //    Cat cat = new Cat("Whiskers", 2, "test");
         //    string expectedSound = "Meow!";
 
         //    // Act
